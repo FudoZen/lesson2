@@ -1,0 +1,61 @@
+require "colorize"
+
+class Ball
+
+
+	def shake
+	blue = ['Don’t count on it',
+	'My reply is no',
+	'My sources say no',
+	'Outlook not so good',
+	'Very doubtful']
+
+	green = ['As I see it, yes',
+	'Most likely',
+	'Outlook good',
+	'Signs point to yes',
+	"'Yes'"]
+
+	yellow = ['Reply hazy, try again',
+	'Ask again later',
+	'Better not tell you now',
+	'Cannot predict now',
+	'Concentrate and ask again']
+
+	red = ['It is certain',
+	'It is decidedly so',
+	'Without a doubt',
+	'Yes — definitely',
+	'You may rely on it']
+
+=begin
+	random = rand(4)
+	colorrandom = rand(3)
+
+	if  colorrandom == 0
+		p blue.slice(random).blue
+		blue.slice(random).to_s
+
+	elsif colorrandom == 2
+		p green.slice(random).green
+		green.slice(random).to_s
+
+	elsif colorrandom == 3
+		p yellow.slice(random).yellow
+		yellow.slice(random).to_s
+
+	elsif colorrandom == 4
+		p red.slice(random).red
+		red.slice(random).to_s
+	end
+
+	p blue.slice(random).blue
+=end
+	a = "smth"
+	p a.red
+	end
+
+end
+
+a = Ball.new
+a.shake
