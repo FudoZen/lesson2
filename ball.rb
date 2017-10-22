@@ -1,5 +1,5 @@
 require 'yaml'
-require_relative 'cmdcolors'
+require_relative 'cmd_colors'
 
 class Ball
   ANSWERS = YAML.load_file('answers.yml')
