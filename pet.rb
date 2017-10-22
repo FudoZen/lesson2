@@ -1,4 +1,4 @@
-class Commands_Pet
+class Commandspet
   def play
     nowtime
     @play += 20
@@ -41,7 +41,7 @@ class Commands_Pet
   end
 end
 
-class Pet < Commands_Pet
+class Pet < Commandspet
   def start
     print 'Введите имя: ', @name = gets
     print 'Введите вид: ', @kind = gets
@@ -125,6 +125,3 @@ class Pet < Commands_Pet
     @height = 100 if @height > 100
   end
 end
-
-a = Pet.new
-a.help
